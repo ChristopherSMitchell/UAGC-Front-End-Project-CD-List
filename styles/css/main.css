@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/notesBG.png);
+    background-repeat: repeat;
+    color: #333;
+    font: Helvetica;
+    margin: 0 auto;
+    width: 100%;
+}
+
+nav {
+    background-color: #333;
+    height: 60px;
+    width: 100%;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 425px;
+}
+
+.filter {
+    margin-top: 19px;
+}
+
+.search {
+    margin-top: 18px;
+    width: 215px;
+}
+
+.search input {
+    font-size: 1.5em;
+}
+
+.container {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px gray;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    max-width: 960px;
+}
+
+.flow {    
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.flow img {
+    box-shadow: 0 4px 8px gray;
+    height: 100px;
+    width: 100px;
+}
+
+.flow p {
+    color: gray;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100px;
+}
+
+.flow span {
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    height: 60px;
+    width: 100%;
+}
