@@ -6,6 +6,8 @@
     <title>CD List</title>
 
     <link rel="stylesheet" href="styles/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
 </head>
 
 <body style="background-image:url('images/notesBG.png');background-attachment:fixed">
@@ -27,10 +29,12 @@
 
             </div>
 
-            <div class="search">
-                <input type="search" placeholder="Search">
-                <button type="button">Go</button>
-            </div>
+            <form action="search.html" method="get" id="siteSearch">
+                <div class="search">
+                    <input type="search" placeholder="Search" id="searchTxt">
+                    <button type="button" id="ssBtn">Go</button>
+                </div>
+            </form>
 
         </div>
 
@@ -299,6 +303,12 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="scripts/main.js"></script>
+    <script type="text/javascript">
+        document.getElementById('siteSearch').onsubmit = function () {
+            window.location = 'http://www.google.com/search?q=site:https://mrmperial.github.io/CD-List/ ' + document.getElementById('searchTxt').value;
+            return false;
+        }
+    </script>
 
 </body>
 

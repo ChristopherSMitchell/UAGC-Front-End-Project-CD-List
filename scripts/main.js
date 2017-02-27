@@ -9,4 +9,5 @@ $(document).ready(function () {
     $('#close').on('click', function () {
         $('#modal').fadeOut(500);
     });
+    
 });
