@@ -1,13 +1,25 @@
 $(document).ready(function () {
 
+    // Better Dayz
     $('#betterDayz').hide();
-
-    $('#open').on('click', function () {
+    
+    $('#bdOpen').on('click', function () {
         $('#betterDayz').fadeIn(500);
     });
 
-    $('#close').on('click', function () {
+    $('#bdClose').on('click', function () {
         $('#betterDayz').fadeOut(500);
+    });
+    
+    // Pacs Life
+    $('#pacsLife').hide();
+    
+    $('#plOpen').on('click', function () {
+        $('#pacsLife').fadeIn(500);
+    });
+
+    $('#plClose').on('click', function () {
+        $('#pacsLife').fadeOut(500);
     });
     
 });
