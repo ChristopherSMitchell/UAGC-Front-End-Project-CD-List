@@ -1,13 +1,13 @@
 $(document).ready(function () {
 
-    $('#modal').hide();
+    $('#betterDayz').hide();
 
     $('#open').on('click', function () {
-        $('#modal').fadeIn(500);
+        $('#betterDayz').fadeIn(500);
     });
 
     $('#close').on('click', function () {
-        $('#modal').fadeOut(500);
+        $('#betterDayz').fadeOut(500);
     });
     
 });
