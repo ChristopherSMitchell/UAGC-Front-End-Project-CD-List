@@ -1,0 +1,34 @@
+{
+    "albums": [
+        {
+            "artist": "Metallica",
+            "title": "Better Dayz",
+            "image": "images/albumCovers/2pac_BetterDayz.jpg",
+            "genre": "Hip Hop"
+        },
+        {
+            "artist": "Iron Maiden",
+            "title": "Duets",
+            "image": "images/albumCovers/Biggie_Duets.jpg",
+            "genre": "Hip Hop"
+        },
+        {
+            "artist": "White Zombie",
+            "title": "Better Dayz",
+            "image": "images/albumCovers/2pac_BetterDayz.jpg",
+            "genre": "Hip Hop"
+        },
+        {
+            "artist": "AC/DC",
+            "title": "Duets",
+            "image": "images/albumCovers/Biggie_Duets.jpg",
+            "genre": "Hip Hop"
+        },
+        {
+            "artist": "Meatloaf",
+            "title": "Duets",
+            "image": "images/albumCovers/Biggie_Duets.jpg",
+            "genre": "Hip Hop"
+        }
+    ]
+}

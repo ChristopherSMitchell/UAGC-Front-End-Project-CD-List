@@ -1,0 +1,34 @@
+{
+    "albums": [
+        {
+            "artist": "Sonny Rollins",
+            "title": "Better Dayz",
+            "image": "images/albumCovers/2pac_BetterDayz.jpg",
+            "genre": "Hip Hop"
+        },
+        {
+            "artist": "Miles Davis",
+            "title": "Duets",
+            "image": "images/albumCovers/Biggie_Duets.jpg",
+            "genre": "Hip Hop"
+        },
+        {
+            "artist": "John Lee Hooker",
+            "title": "Better Dayz",
+            "image": "images/albumCovers/2pac_BetterDayz.jpg",
+            "genre": "Hip Hop"
+        },
+        {
+            "artist": "Ray Charles",
+            "title": "Duets",
+            "image": "images/albumCovers/Biggie_Duets.jpg",
+            "genre": "Hip Hop"
+        },
+        {
+            "artist": "Muddy Waters",
+            "title": "Duets",
+            "image": "images/albumCovers/Biggie_Duets.jpg",
+            "genre": "Hip Hop"
+        }
+    ]
+}

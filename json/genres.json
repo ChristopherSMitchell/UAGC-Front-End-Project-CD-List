@@ -1,0 +1,19 @@
+{
+    [
+        {
+            "genre": "Hip Hop"
+        },
+        {
+            "genre": "Gospel"
+        },
+        {
+            "genre": "Rock"
+        },
+        {
+            "genre": "Country"
+        },
+        {
+            "genre": "Blues"
+        }
+    ]
+}
