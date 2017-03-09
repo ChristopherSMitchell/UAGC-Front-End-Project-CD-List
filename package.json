@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "json-server --watch db.json -d 1000 --port 3005"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,8 @@
     "gulp-header": "^1.8.8",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.4.1"
+    "gulp-sourcemaps": "^2.4.1",
+    "json": "^9.0.4",
+    "serves": "^1.1.1"
   }
 }
