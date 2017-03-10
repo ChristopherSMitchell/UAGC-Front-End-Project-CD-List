@@ -11,7 +11,8 @@ body {
     width: 100%;
 }
 
-ul, ol {
+ul,
+ol {
     text-transform: capitalize;
 }
 
@@ -19,6 +20,31 @@ nav {
     background-color: #333;
     height: 60px;
     width: 100%;
+}
+
+button {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px 2px gray;
+    font-size: 1.3em;
+    margin-left: 25%;
+    margin-top: 20px;
+    outline: none;
+    width: 50%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: none;
+    outline: none;
+}
+
+.hide {
+    display: none;
 }
 
 .container {
@@ -33,33 +59,33 @@ nav {
     max-width: 960px;
 }
 
-.flow {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
+.flowContainer {
+    display: inline-flex;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
-.flow img {
+.flowContainer img {
     box-shadow: 0 4px 8px gray;
     height: 100px;
     width: 100px;
 }
 
-.flow img:hover {
+.flowContainer img:hover {
     cursor: pointer;
     transform: scale(1.25);
     transition-duration: 1s;
     transition-timing-function: ease;
 }
 
-.flow p {
+.flowContainer p {
     color: gray;
     margin-bottom: 30px;
     text-align: center;
     width: 100px;
 }
 
-.flow span {
+.flowContainer span {
     color: black;
     font-weight: bold;
 }

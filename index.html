@@ -6,22 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>CD List</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <link rel="stylesheet" href="styles/css/main.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body style="background-image:url('images/notesBG.png');background-attachment:fixed">
 
-    <nav>
-
-    </nav>
-
     <div id="albums-container"></div>
-    
-    <footer>
-
-        <p>CD List</p>
-
-    </footer>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
@@ -31,21 +21,15 @@
 
         <div class="container">
             {{#each albums}}
-            <div class="flow">
-                <img src="{{image}}" alt="{{title}}">
-            </div>
-
-            <div class="flow">
-                <p>{{artist}}<span>{{title}}</span></p>
+            <div class="flowContainer">
+                <div>
+                    <img class="flowItem" src="{{image}}" alt="{{title}}">
+                    <p class="flowItem">{{artist}}
+                        <br><span>{{title}}</span></p>
+                </div>
             </div>
             {{/each}}
         </div>
-
-        <ol>
-            {{#each tracks}}
-            <li>{{this}}</li>
-            {{/each}}
-        </ol>
 
     </script>
 

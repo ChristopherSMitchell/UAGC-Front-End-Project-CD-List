@@ -1,0 +1,354 @@
+{
+    "albums": [
+        {
+            "artist": "2Pac",
+            "title": "Better Dayz",
+            "image": "images/albumCovers/2pac_BetterDayz.jpg",
+            "genre": "Hip Hop",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Biggie",
+            "title": "Duets",
+            "image": "images/albumCovers/Biggie_Duets.jpg",
+            "genre": "Hip Hop",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Snoop Dogg",
+            "title": "California Times",
+            "image": "images/albumCovers/SnoopDogg_CaliforniaTimes.jpg",
+            "genre": "Hip Hop",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Ice Cube",
+            "title": "Greatest Hits",
+            "image": "images/albumCovers/IceCube_GreatestHits.jpg",
+            "genre": "Hip Hop",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "T.I.",
+            "title": "Paperworks",
+            "image": "images/albumCovers/ti-paperwork-cover.jpg",
+            "genre": "Hip Hop",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "George Strait",
+            "title": "Easy Come Easy Go",
+            "image": "images/albumCovers/GeorgeStrait_EasyComeEasyGo.jpg",
+            "genre": "Country",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Carrie Underwood",
+            "title": "Blown Away",
+            "image": "images/albumCovers/CarrieUnderwood_BlownAway.jpg",
+            "genre": "Country",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Tim McGraw",
+            "title": "Live Like YOu Were Dying",
+            "image": "images/albumCovers/TimMcGraw_LiveLikeYouWereDying.jpg",
+            "genre": "Country",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Miranda Lambert",
+            "title": "Kerosene",
+            "image": "images/albumCovers/MirandaLambert_Kerosene.jpg",
+            "genre": "Country",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Brad Paisley",
+            "title": "This is Country",
+            "image": "images/albumCovers/BradPaisley_ThisIsCountry.jpg",
+            "genre": "Country",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Metallica",
+            "title": "The Collection",
+            "image": "images/albumCovers/Metallica_-_The_Metallica_Collection_cover.jpg",
+            "genre": "Rock",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Iron Maiden",
+            "title": "Planet Rock",
+            "image": "images/albumCovers/ironmaiden_planetrock.jpg",
+            "genre": "Rock",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "White Zombie",
+            "title": "God of Thunder",
+            "image": "images/albumCovers/whitezombie_god-of-thunder.jpg",
+            "genre": "Rock",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "AC/DC",
+            "title": "The Razors Edge",
+            "image": "images/albumCovers/ACDC_TheRazorsEdge.jpg",
+            "genre": "Rock",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Meatloaf",
+            "title": "Bat Out of Hell",
+            "image": "images/albumCovers/meatloaf_bat_out_of_hell.jpg",
+            "genre": "Rock",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Joe Mettle",
+            "title": "My Gratitude",
+            "image": "images/albumCovers/joemettle_mygratitude.jpg",
+            "genre": "Gospel",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Jonathan Nelson",
+            "title": "I Believe",
+            "image": "images/albumCovers/nelson_ibelieve.jpg",
+            "genre": "Gospel",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Vashawn Mitchell",
+            "title": "Unstoppable",
+            "image": "images/albumCovers/mitchell_unstoppable.jpg",
+            "genre": "Gospel",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Javis D Mays",
+            "title": "#PluggedIn",
+            "image": "images/albumCovers/mays_pluggedin.png",
+            "genre": "Gospel",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Nicole C Mullen",
+            "title": "Crown Him",
+            "image": "images/albumCovers/mullen_crown him.jpg",
+            "genre": "Gospel",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Sonny Rollins",
+            "title": "Way Out West",
+            "image": "images/albumCovers/Sonny_Rollins-Way_Out_West_(album_cover).jpg",
+            "genre": "Blues",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Miles Davis",
+            "title": "Birth of the Cool",
+            "image": "images/albumCovers/miles_birthofthecool.jpg",
+            "genre": "Blues",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "John Lee Hooker",
+            "title": "The Healer",
+            "image": "images/albumCovers/hooker_thehealer.jpg",
+            "genre": "Blues",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Ray Charles",
+            "title": "King of Cool",
+            "image": "images/albumCovers/King-Of-Cool-The-Genius-Of-Ray-Charles-CD2-cover.jpg",
+            "genre": "Blues",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        },
+        {
+            "artist": "Muddy Waters",
+            "title": "Blue Skies",
+            "image": "images/albumCovers/Muddy_BlueSkies.jpg",
+            "genre": "Blues",
+            "tracks": [
+                {
+                    "1": "placeholder",
+                    "2": "placeholder",
+                    "3": "placeholder",
+                    "5": "placeholder"
+                }
+            ]
+        }
+    ]
+}
