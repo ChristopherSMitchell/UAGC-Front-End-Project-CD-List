@@ -5,12 +5,12 @@ theRequest.onload = function () {
         var data = JSON.parse(theRequest.responseText);
         createHTML(data);
     } else {
-        console.log("Oops, Something went wrong!");
+        console.warn("Oops, Something went wrong!");
     }
 };
 
 theRequest.onerror = function () {
-    console.log("Connection error");
+    console.warn("Connection error");
 };
 
 theRequest.send();
@@ -27,14 +27,8 @@ function createHTML(albumsData) {
     $('.close').on('click', closeModal);
 
     function openModal() {
-        /*var target = $(this).data('target');
-        $(target).fadeIn(100, function () {
-            $(this).find('.modal').fadeIn(100);
-        });
-        console.log(target);*/
         var artistId = $(this).data('id');
         var album = searchAlbums(artistId);
-        console.log(album);
 
         var rawAlbumTemplate = document.getElementById('modalTemplate').innerHTML;
         var compiledAlbumTemplate = Handlebars.compile(rawAlbumTemplate);
@@ -61,7 +55,7 @@ function createHTML(albumsData) {
         $('.modal').fadeOut(100, function () {
             $('.overlay').fadeOut(100);
         });
-
+        
         $(document).off('keyup', function () {
             $('.overlay').off('click', closeModal);
         });
